@@ -1,0 +1,15 @@
+;;;; Emacs Bookmark Format Version 1 ;;;; -*- coding: utf-8-emacs -*-
+;;; This format is meant to be slightly human-readable;
+;;; nevertheless, you probably don't want to edit it.
+;;; -*- End Of Bookmark File Format Version Stamp -*-
+(("self-improvement"
+ (filename . "~/Dropbox/emacsOrgFiles/Org-roam/20210831145609-важные_для_меня_сферы_развития.org")
+ (front-context-string . "\nРодитель: [[id:")
+ (rear-context-string . "-сферы-развития\n")
+ (position . 108))
+("org-capture-last-stored"
+ (filename . "~/Dropbox/emacsOrgFiles/Org-roam/20210915120252-which_key.org")
+ (front-context-string . "\n[[id:fc6312d2-6")
+ (rear-context-string . "itle: which-key\n")
+ (position . 87))
+)
