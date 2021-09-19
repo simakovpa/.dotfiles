@@ -1,8 +1,52 @@
 ;; MELPA add repositories
 (require 'package)
-(add-to-list 'package-archives
-             '("melpa-stable" . "https://stable.melpa.org/packages/"))
+(setq package-archives '(("melpa" . "https://melpa.org/packages/")
+                         ("melpa-stable" . "https://stable.melpa.org/packages")
+                         ("org" . "https://orgmode.org/elpa/")
+                         ("elpa" . "https://elpa.gnu.org/packages/")))
+  
+(package-initialize)
+(unless package-archive-contents
+    (package-refresh-contents))
 
+;; Initialize use-package on non-linux platforms
+(unless (package-installed-p 'use-package)
+        (package-install 'use-package))
+
+(require 'use-package)
+(setq use-package-always-ensure t)
+
+;; Make ESC quit prompts
+(global-set-key (kbd "<escape>") 'keyboard-escape-quit)
+
+;; swiper
+(use-package swiper)
+
+;; IVY для улучшения интерфейса поиска в минибуфере
+(use-package ivy
+  :diminish
+  :bind (("C-s" . swiper)
+         :map ivy-minibuffer-map
+         ("TAB" . ivy-alt-done)
+         ("C-l" . ivy-alt-done)
+         ("C-j" . ivy-next-line)
+         ("C-k" . ivy-previous-line)
+         :map ivy-switch-buffer-map
+         ("C-k" . ivy-previous-line)
+         ("C-l" . ivy-done)
+         ("C-d" . ivy-switch-buffer-kill)
+         :map ivy-reverse-i-search-map
+         ("C-k" . ivy-previous-line)
+         ("C-d" . ivy-reverse-i-search-kill))
+   :config
+         (ivy-mode 1))
+
+;; doom-modeline settings
+(use-package doom-modeline
+    :ensure t
+    :init (doom-modeline-mode 1)
+    ;;:config (doom-modeline-height 15)
+    :hook (window-setup . doom-modeline-mode))
 
 (custom-set-variables
  ;; custom-set-variables was added by Custom.
@@ -12,8 +56,9 @@
  '(custom-enabled-themes '(misterioso))
  '(org-modules
    '(ol-bbdb ol-bibtex ol-docview ol-doi ol-eww ol-gnus org-habit ol-info ol-irc ol-mhe ol-rmail ol-w3m))
+ '(org-roam-ui-mode t)
  '(package-selected-packages
-   '(quelpa-use-package flycheck-tip flycheck-pycheckers flycheck evil-nerd-commenter lsp-ivy lsp-treemacs lsp-ui company which-key lsp-mode pdf-tools org-superstar use-package deft jedi simple-httpd websocket pandoc-mode python-mode pomidor org-books reverse-im org-roam-server telega vbasense org emacs-visual-notifications)))
+   '(emacsql-sqlite3 org-roam swiper alert doom-modeline quelpa-use-package flycheck-tip flycheck-pycheckers flycheck evil-nerd-commenter lsp-ivy lsp-treemacs lsp-ui company which-key lsp-mode pdf-tools org-superstar use-package deft jedi simple-httpd websocket pandoc-mode python-mode pomidor org-books reverse-im org-roam-server telega vbasense org emacs-visual-notifications)))
 (custom-set-faces
  ;; custom-set-faces was added by Custom.
  ;; If you edit it by hand, you could mess it up, so be careful.
@@ -826,6 +871,7 @@ Skip project and sub-project tasks, habits, and loose non-project tasks."
 (global-set-key (kbd "C-c n f") 'org-roam-node-find)
 (global-set-key (kbd "C-c n i") 'org-roam-node-insert)
 (global-set-key (kbd "C-c n l") 'org-roam-buffer-toggle)
+(global-set-key (kbd "C-c n g") 'org-roam-ui-mode)
 (global-set-key (kbd "C-c n c") 'org-roam-capture)
 (global-set-key (kbd "C-c n h i") 'org-id-get-create)
 (global-set-key (kbd "C-c j D") 'org-roam-dailies-capture-today)

@@ -8,8 +8,8 @@
  (rear-context-string . "-сферы-развития\n")
  (position . 108))
 ("org-capture-last-stored"
- (filename . "~/Dropbox/emacsOrgFiles/Org-roam/20210915104939-lsp_mode.org")
+ (filename . "~/Dropbox/emacsOrgFiles/Org-roam/20210915120252-which_key.org")
  (front-context-string . "\n[[id:fc6312d2-6")
- (rear-context-string . "title: lsp-mode\n")
- (position . 86))
+ (rear-context-string . "itle: which-key\n")
+ (position . 87))
 )

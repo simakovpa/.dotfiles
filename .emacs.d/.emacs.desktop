@@ -2,42 +2,150 @@
 ;; --------------------------------------------------------------------------
 ;; Desktop File for Emacs
 ;; --------------------------------------------------------------------------
-;; Created Thu Sep 16 10:29:52 2021
+;; Created Sun Sep 19 20:03:38 2021
 ;; Desktop file format version 208
 ;; Emacs version 27.2
 
 ;; Global section:
-(setq desktop-saved-frameset [frameset 1 (24898 47664 194148 474000) (desktop . "208") "toli4@toli4-manjaro" nil nil ((((minibuffer . t) (undecorated) (override-redirect) (font . "-SRC-Hack-normal-normal-normal-*-15-*-*-*-m-0-iso10646-1") (font-parameter . "Hack 11") (border-width . 0) (internal-border-width . 0) (right-divider-width . 0) (bottom-divider-width . 0) (vertical-scroll-bars . right) (horizontal-scroll-bars) (foreground-color . "#e1e1e0") (background-color . "#2d3743") (mouse-color . "black") (border-color . "black") (screen-gamma) (line-spacing) (left-fringe . 8) (right-fringe . 8) (no-special-glyphs) (scroll-bar-foreground) (scroll-bar-background) (menu-bar-lines . 1) (tab-bar-lines . 0) (height . 54) (tool-bar-lines . 0) (title) (wait-for-wm . t) (tool-bar-position . top) (inhibit-double-buffering) (icon-type . t) (auto-raise) (auto-lower) (cursor-type . box) (scroll-bar-width . 16) (scroll-bar-height . 16) (alpha) (no-focus-on-map) (no-accept-focus) (fullscreen) (visibility . t) (skip-taskbar) (z-group) (display-type . color) (background-mode . dark) (cursor-color . "#415160") (sticky) (environment) (last-focus-update . t) (frameset--id . "504A-6A04-E630-4D1D") (frameset--mini t . t) (width . 209) (modeline . t) (unsplittable) (left + -10) (top . 24) (icon-name) (display . ":1") (explicit-name)) ((min-height . 4) (min-width . 10) (min-height-ignore . 2) (min-width-ignore . 10) (min-height-safe . 1) (min-width-safe . 2) (min-pixel-height . 72) (min-pixel-width . 90) (min-pixel-height-ignore . 36) (min-pixel-width-ignore . 90) (min-pixel-height-safe . 18) (min-pixel-width-safe . 18)) leaf (pixel-width . 1920) (pixel-height . 964) (total-width . 213) (total-height . 54) (normal-height . 1.0) (normal-width . 1.0) (buffer ".emacs" (selected . t) (hscroll . 0) (fringes 8 8 nil nil) (margins 4) (scroll-bars nil 2 t nil 0 t nil) (vscroll . 0) (dedicated) (point . 4949) (start . 4513)) (prev-buffers (".emacs" 4513 4949) ("COVID19.py" 1 7937) ("*scratch*" 1 1))))])
+(setq desktop-saved-frameset [frameset 1 (24903 13610 354485 404000) (desktop . "208") "toli4@toli4-manjaro" nil nil ((((minibuffer . t) (undecorated) (override-redirect) (font . "-SRC-Hack-normal-normal-normal-*-15-*-*-*-m-0-iso10646-1") (font-parameter . "Hack 11") (border-width . 0) (internal-border-width . 0) (right-divider-width . 0) (bottom-divider-width . 0) (vertical-scroll-bars . right) (horizontal-scroll-bars) (foreground-color . "#e1e1e0") (background-color . "#2d3743") (mouse-color . "black") (border-color . "black") (screen-gamma) (line-spacing) (left-fringe . 8) (right-fringe . 8) (no-special-glyphs) (scroll-bar-foreground) (scroll-bar-background) (menu-bar-lines . 1) (tab-bar-lines . 0) (height . 54) (tool-bar-lines . 0) (title) (wait-for-wm . t) (tool-bar-position . top) (inhibit-double-buffering) (icon-type . t) (auto-raise) (auto-lower) (cursor-type . box) (scroll-bar-width . 16) (scroll-bar-height . 16) (alpha) (no-focus-on-map) (no-accept-focus) (fullscreen) (visibility . t) (skip-taskbar) (z-group) (display-type . color) (background-mode . dark) (cursor-color . "#415160") (sticky) (environment) (last-focus-update . t) (frameset--id . "F5CF-C807-E590-D9B9") (frameset--mini t . t) (width . 209) (modeline . t) (unsplittable) (left + -10) (top . 24) (icon-name) (display . ":1") (explicit-name)) ((min-height . 4) (min-width . 10) (min-height-ignore . 4) (min-width-ignore . 9) (min-height-safe . 1) (min-width-safe . 2) (min-pixel-height . 72) (min-pixel-width . 90) (min-pixel-height-ignore . 72) (min-pixel-width-ignore . 81) (min-pixel-height-safe . 18) (min-pixel-width-safe . 18)) leaf (pixel-width . 1920) (pixel-height . 964) (total-width . 213) (total-height . 54) (normal-height . 1.0) (normal-width . 1.0) (buffer "*Packages*" (selected . t) (hscroll . 0) (fringes 8 8 nil nil) (margins 3) (scroll-bars nil 2 t nil 0 t nil) (vscroll . 0) (dedicated) (point . 1) (start . 1)) (prev-buffers ("*Warnings*" 1 749) ("*Packages*" 1 1) ("*Compile-Log*" 34867 37086))))])
 (setq desktop-missing-file-warning nil)
 (setq tags-file-name nil)
 (setq tags-table-list nil)
-(setq search-ring '(#("flymake" 0 7 (isearch-regexp-function nil isearch-case-fold-search t)) #("flycheck" 0 8 (isearch-case-fold-search t isearch-regexp-function nil)) #("evil-ner" 0 8 (isearch-case-fold-search t isearch-regexp-function nil)) #("lsp-ivy" 0 7 (isearch-case-fold-search t isearch-regexp-function nil)) #("lsp-i" 0 5 (isearch-regexp-function nil isearch-case-fold-search t)) #("treema" 0 6 (isearch-case-fold-search t isearch-regexp-function nil)) #("cl" 0 2 (isearch-case-fold-search t isearch-regexp-function nil)) #("lsp-ui" 0 6 (isearch-regexp-function nil isearch-case-fold-search t)) #("company-boxqq" 0 13 (isearch-regexp-function nil isearch-case-fold-search t)) #("company" 0 7 (isearch-regexp-function nil isearch-case-fold-search t)) #("which-key" 0 9 (isearch-regexp-function nil isearch-case-fold-search t)) #("lsp-mode" 0 8 (isearch-regexp-function nil isearch-case-fold-search t)) #("python" 0 6 (isearch-regexp-function nil isearch-case-fold-search t)) #("eval" 0 4 (isearch-regexp-function nil isearch-case-fold-search t)) #("pandoc" 0 6 (isearch-regexp-function nil isearch-case-fold-search t)) #("99305bc8-0584-4fd1-be2e-9bc3f6f361bd" 0 36 (isearch-regexp-function nil isearch-case-fold-search t))))
-(setq regexp-search-ring nil)
+(setq search-ring '(#("swiper" 0 6 (isearch-regexp-function nil isearch-case-fold-search t)) #("блок" 0 4 (isearch-regexp-function nil isearch-case-fold-search t)) #("term" 0 4 (isearch-regexp-function nil isearch-case-fold-search t)) #("use-package" 0 11 (isearch-regexp-function nil isearch-case-fold-search t)) #("flymake" 0 7 (isearch-case-fold-search t isearch-regexp-function nil)) #("flycheck" 0 8 (isearch-regexp-function nil isearch-case-fold-search t)) #("evil-ner" 0 8 (isearch-regexp-function nil isearch-case-fold-search t)) #("lsp-ivy" 0 7 (isearch-regexp-function nil isearch-case-fold-search t)) #("lsp-i" 0 5 (isearch-case-fold-search t isearch-regexp-function nil)) #("treema" 0 6 (isearch-regexp-function nil isearch-case-fold-search t)) #("cl" 0 2 (isearch-regexp-function nil isearch-case-fold-search t)) #("lsp-ui" 0 6 (isearch-case-fold-search t isearch-regexp-function nil)) #("company-boxqq" 0 13 (isearch-case-fold-search t isearch-regexp-function nil)) #("company" 0 7 (isearch-case-fold-search t isearch-regexp-function nil)) #("which-key" 0 9 (isearch-case-fold-search t isearch-regexp-function nil)) #("lsp-mode" 0 8 (isearch-case-fold-search t isearch-regexp-function nil))))
+(setq regexp-search-ring '("sql"))
 (setq register-alist nil)
 (setq file-name-history '("/home/toli4/COVID19.py" "/home/toli4/.emacs" "/home/toli4/Dropbox/emacsOrgFiles/Main.org" "/home/toli4/Dropbox/emacsOrgFiles/Main.docx" "/home/toli4/.emacs" "/home/toli4/Dropbox/emacsOrgFiles/Main.org"))
 
 ;; Buffer section -- buffers listed in same order as in buffer list:
 (desktop-create-buffer 208
-  "/home/toli4/.emacs"
+  "/home/toli4/.dotfiles/.emacs"
   ".emacs"
   'emacs-lisp-mode
-  '(visual-line-mode eldoc-mode linum-mode org-roam-ui-mode org-roam-ui-follow-mode override-global-mode flycheck-mode which-key-mode)
-  4949
-  '(1614 nil)
+  '(visual-line-mode eldoc-mode linum-mode org-roam-ui-mode override-global-mode ivy-mode flycheck-mode which-key-mode)
+  37309
+  '(37308 nil)
   nil
   nil
-  '((buffer-display-time 24898 47662 787781 220000) (buffer-file-coding-system . utf-8-dos) (truncate-lines))
-  '((mark-ring (5133 4989 4949))))
+  '((buffer-display-time 24903 13543 470327 842000) (buffer-file-coding-system . utf-8-dos) (overwrite-mode) (truncate-lines))
+  '((mark-ring (35633 34884 35457 35399 34965 1485 775 1323 691 1484 1265 1485 1297 723 609 36649))))
+
+(desktop-create-buffer 208
+  "/home/toli4/Dropbox/emacsOrgFiles/Org-roam/20210903003549-поиск_работы.org"
+  "20210903003549-поиск_работы.org"
+  'org-mode
+  '(visual-line-mode linum-mode org-roam-ui-mode override-global-mode ivy-mode flycheck-mode which-key-mode)
+  1273
+  '(1185 nil)
+  nil
+  nil
+  '((buffer-display-time 24903 5953 794753 940000) (buffer-file-coding-system . utf-8-unix) (truncate-lines))
+  '((mark-ring (1095 998 891 761 760 1273))))
+
+(desktop-create-buffer 208
+  "/home/toli4/Dropbox/emacsOrgFiles/Org-roam/20210917115541-dotfile_literate_config.org"
+  "20210917115541-dotfile_literate_config.org"
+  'org-mode
+  '(visual-line-mode linum-mode org-roam-ui-mode override-global-mode ivy-mode flycheck-mode which-key-mode)
+  2059
+  '(1158 nil)
+  nil
+  nil
+  '((buffer-display-time 24900 30458 703943 967000) (buffer-file-coding-system . utf-8-unix) (truncate-lines))
+  '((mark-ring (1245 1245 238 1882 1882 1856 1193 1196 1196 1090 963 963 878 882 960 2059))))
+
+(desktop-create-buffer 208
+  "/home/toli4/Dropbox/emacsOrgFiles/Main.org"
+  "Main.org"
+  'org-mode
+  '(visual-line-mode linum-mode org-roam-ui-mode override-global-mode ivy-mode flycheck-mode which-key-mode)
+  1638
+  '(9233 nil)
+  nil
+  nil
+  '((buffer-display-time 24900 22884 398738 974000) (buffer-file-coding-system . utf-8-unix) (truncate-lines))
+  '((mark-ring (266 19348 18464 16275 16180 16235 15909 17716 15331 15176 16470 6752 16352 16480 16605 16480))))
 
 (desktop-create-buffer 208
   "/home/toli4/COVID19.py"
   "COVID19.py"
   'python-mode
-  '(visual-line-mode eldoc-mode linum-mode org-roam-ui-mode org-roam-ui-follow-mode override-global-mode lsp-mode flycheck-mode which-key-mode company-mode lsp-modeline-workspace-status-mode)
-  7937
-  '(4570 nil)
+  '(visual-line-mode eldoc-mode linum-mode org-roam-ui-mode override-global-mode ivy-mode lsp-mode flycheck-mode which-key-mode company-mode)
+  1
+  '(nil nil)
   nil
   nil
-  '((tab-width . 8) (indent-tabs-mode) (buffer-display-time 24898 39930 504459 267000) (buffer-file-coding-system . utf-8-dos) (truncate-lines))
-  '((mark-ring (4191 1117 1025 1642 1548 1592 1819 1860 1356 2237 3234 3256 3216 3687 3875 7937))))
+  '((tab-width . 8) (indent-tabs-mode) (buffer-display-time 24899 61392 379454 728000) (buffer-file-coding-system . utf-8-dos) (truncate-lines))
+  '((mark-ring nil)))
+
+(desktop-create-buffer 208
+  "/home/toli4/Dropbox/emacsOrgFiles/refile.org"
+  "refile.org"
+  'org-mode
+  '(visual-line-mode linum-mode org-roam-ui-mode override-global-mode ivy-mode flycheck-mode which-key-mode)
+  21
+  '(nil nil)
+  nil
+  nil
+  '((buffer-display-time) (buffer-file-coding-system . utf-8-unix) (truncate-lines))
+  '((mark-ring nil)))
+
+(desktop-create-buffer 208
+  "/home/toli4/Dropbox/emacsOrgFiles/work.org"
+  "work.org"
+  'org-mode
+  '(visual-line-mode linum-mode org-roam-ui-mode override-global-mode ivy-mode flycheck-mode which-key-mode)
+  1
+  '(nil nil)
+  nil
+  nil
+  '((buffer-display-time) (buffer-file-coding-system . utf-8-unix) (truncate-lines))
+  '((mark-ring nil)))
+
+(desktop-create-buffer 208
+  "/home/toli4/Dropbox/emacsOrgFiles/Начало работы с Orgzly.org"
+  "Начало работы с Orgzly.org"
+  'org-mode
+  '(visual-line-mode linum-mode org-roam-ui-mode override-global-mode ivy-mode flycheck-mode which-key-mode)
+  774
+  '(nil nil)
+  nil
+  nil
+  '((buffer-display-time) (buffer-file-coding-system . utf-8-unix) (truncate-lines))
+  '((mark-ring nil)))
+
+(desktop-create-buffer 208
+  "/home/toli4/.emacs.d/diary"
+  "diary"
+  'diary-mode
+  '(visual-line-mode linum-mode org-roam-ui-mode override-global-mode ivy-mode flycheck-mode which-key-mode)
+  1
+  '(nil nil)
+  nil
+  nil
+  '((buffer-display-time) (truncate-lines))
+  '((mark-ring nil)))
+
+(desktop-create-buffer 208
+  "/home/toli4/Dropbox/emacsOrgFiles/refile.org_archive"
+  "refile.org_archive"
+  'org-mode
+  '(visual-line-mode linum-mode org-roam-ui-mode override-global-mode ivy-mode flycheck-mode which-key-mode)
+  368
+  '(nil nil)
+  nil
+  nil
+  '((buffer-display-time) (buffer-file-coding-system . utf-8-dos) (truncate-lines))
+  '((mark-ring nil)))
+
+(desktop-create-buffer 208
+  "/home/toli4/.emacs.d/elpa/org-20210913/org-loaddefs.el"
+  "org-loaddefs.el"
+  'emacs-lisp-mode
+  '(visual-line-mode eldoc-mode linum-mode org-roam-ui-mode override-global-mode ivy-mode flycheck-mode which-key-mode)
+  125308
+  '(nil nil)
+  nil
+  nil
+  '((buffer-display-time) (buffer-file-coding-system . utf-8-unix) (truncate-lines))
+  '((mark-ring nil)))
 
