@@ -2,3 +2,5 @@
 .zshrc.pre-oh-my-zsh
 .emacs~
 .emacs.d/tmp/
+.emacs.d/.emacs.desktop
+.emacs.d/auto-save-list/
