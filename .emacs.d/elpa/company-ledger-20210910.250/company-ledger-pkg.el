@@ -1,0 +1,2 @@
+;;; Generated package description from company-ledger.el  -*- no-byte-compile: t -*-
+(define-package "company-ledger" "20210910.250" "Fuzzy auto-completion for Ledger & friends" '((emacs "24.3") (company "0.8.0")) :commit "c6911b7e39b29c0d5f2541392ff485b0f53fd366" :authors '(("Debanjum Singh Solanky <debanjum AT gmail DOT com>")) :maintainer '("Debanjum Singh Solanky <debanjum AT gmail DOT com>") :keywords '("abbrev" "matching" "auto-complete" "beancount" "ledger" "company") :url "https://github.com/debanjum/company-ledger")
