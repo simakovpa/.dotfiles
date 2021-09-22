@@ -8,8 +8,8 @@
  (rear-context-string . "-сферы-развития\n")
  (position . 108))
 ("org-capture-last-stored"
- (filename . "~/Dropbox/emacsOrgFiles/Org-roam/20210917115541-dotfile_literate_config.org")
- (front-context-string . "#+PROPERTY: head")
- (rear-context-string . "literate-config\n")
- (position . 101))
+ (filename . "~/Dropbox/emacsOrgFiles/Org-roam/20210922112406-org_mode.org")
+ (front-context-string . "\n[[id:fc6312d2-6")
+ (rear-context-string . "title: Org-mode\n")
+ (position . 86))
 )
