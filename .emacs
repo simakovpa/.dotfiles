@@ -90,16 +90,16 @@
 ;;    (setq default-buffer-file-coding-system 'windows-1251))
 
 (custom-set-variables
- ;; custom-set-variables was added by Custom.
- ;; If you edit it by hand, you could mess it up, so be careful.
- ;; Your init file should contain only one such instance.
- ;; If there is more than one, they won't work right.
- '(custom-enabled-themes '(misterioso))
+   ;; custom-set-variables was added by Custom.
+   ;; If you edit it by hand, you could mess it up, so be careful.
+   ;; Your init file should contain only one such instance.
+   ;; If there is more than one, they won't work right.
+'(custom-enabled-themes '(misterioso))
  '(org-modules
    '(ol-bbdb ol-bibtex ol-docview ol-doi ol-eww ol-gnus org-habit ol-info ol-irc ol-mhe ol-rmail ol-w3m))
  '(org-roam-ui-mode t)
  '(package-selected-packages
-   '(company-ledger ledger-mode emacsql-sqlite3 org-roam swiper alert doom-modeline quelpa-use-package flycheck-tip flycheck-pycheckers flycheck evil-nerd-commenter lsp-ivy lsp-treemacs lsp-ui company which-key lsp-mode pdf-tools org-superstar use-package deft jedi simple-httpd websocket pandoc-mode python-mode pomidor org-books reverse-im org-roam-server telega vbasense org emacs-visual-notifications)))
+   '(emacsql-sqlite3 org-roam swiper alert doom-modeline quelpa-use-package flycheck-tip flycheck-pycheckers flycheck evil-nerd-commenter lsp-ivy lsp-treemacs lsp-ui company which-key lsp-mode pdf-tools org-superstar use-package deft jedi simple-httpd websocket pandoc-mode python-mode pomidor org-books reverse-im org-roam-server telega vbasense org emacs-visual-notifications)))
 (custom-set-faces
  ;; custom-set-faces was added by Custom.
  ;; If you edit it by hand, you could mess it up, so be careful.
@@ -954,3 +954,11 @@ ${tags:20}")
 (dolist (mode '(org-mode-hook
                 treemacs-mode-hook))
     (add-hook mode (lambda () (display-line-numbers-mode 0))))
+
+;; Ledger-mode для управления финансами
+(use-package ledger-mode
+    :mode ("\\.dat\\'"
+           "\\.ledger\\'")
+    :custom (ledger-clear-whole-transactions t))
+       
+  (use-package flycheck-ledger :after ledger-mode)

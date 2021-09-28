@@ -8,8 +8,8 @@
  (rear-context-string . "-сферы-развития\n")
  (position . 108))
 ("org-capture-last-stored"
- (filename . "~/Dropbox/emacsOrgFiles/Org-roam/20210922112406-org_mode.org")
+ (filename . "~/Dropbox/emacsOrgFiles/Org-roam/20210928081640-daily_notes.org")
  (front-context-string . "\n[[id:fc6312d2-6")
- (rear-context-string . "title: Org-mode\n")
- (position . 86))
+ (rear-context-string . "le: Daily notes\n")
+ (position . 89))
 )
