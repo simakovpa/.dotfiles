@@ -962,3 +962,13 @@ ${tags:20}")
     :custom (ledger-clear-whole-transactions t))
        
   (use-package flycheck-ledger :after ledger-mode)
+
+(eval-after-load 'flycheck '(require 'flycheck-ledger))
+
+;; Автокомплит для леджера и не только 
+(setq completion-in-region-function
+        (lambda (&rest args)
+          (apply (if vertico-mode
+                     #'consult-completion-in-region
+                   #'completion--in-region)
+                 args)))
